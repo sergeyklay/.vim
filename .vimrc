@@ -9,3 +9,6 @@ set wildmenu
 " Complete till longest common string.
 " Also start wildmenu.
 set wildmode=longest:full,full
+
+" Always set autoindenting on.
+set autoindent
