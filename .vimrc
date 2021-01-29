@@ -1,5 +1,11 @@
-" enable syntax recognition
+" Enable syntax recognition.
 syntax on
 
-" a better menu in command mode
+" A better menu in command mode.
+" This enables to use <Left> or <Right> to navigate
+" through the completion lists.
 set wildmenu
+
+" Complete till longest common string.
+" Also start wildmenu.
+set wildmode=longest:full,full
