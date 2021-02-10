@@ -1,6 +1,9 @@
 " Enable syntax recognition.
 syntax on
 
+" Enable automatic indentation.
+filetype indent plugin on
+
 " A better menu in command mode. This enables to use <Left> or <Right> to
 " navigate through the completion lists.
 set wildmenu
