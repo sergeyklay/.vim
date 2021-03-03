@@ -1,3 +1,12 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"
+" My personal configuration Vim for that I use on the daily and port
+" around from system to system with me.
+"
+" Copyright (C) 2014, 2021 Serghei Iakovlev <egrep@protonmail.ch>
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Enable syntax recognition.
 syntax on
 
@@ -13,6 +22,9 @@ set wildmode=longest:full,full
 
 " Display text width column.
 set colorcolumn=78
+
+" Enable the relative line numbering.
+set relativenumber
 
 " Always set autoindenting on.
 set autoindent
