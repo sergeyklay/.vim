@@ -10,6 +10,9 @@
 " Enable syntax recognition.
 syntax on
 
+" Be iMproved.
+set nocompatible
+
 " Enable automatic indentation.
 filetype indent plugin on
 
@@ -19,6 +22,9 @@ set wildmenu
 
 " Complete till longest common string. Also start wildmenu.
 set wildmode=longest:full,full
+
+" Show status bar.
+set laststatus=2
 
 " Display text width column.
 set colorcolumn=78
