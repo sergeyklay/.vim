@@ -29,8 +29,8 @@ set laststatus=2
 " Display text width column.
 set colorcolumn=78
 
-" Enable the relative line numbering.
-set relativenumber
+" Enable the line numbering.
+set number
 
 " Always set autoindenting on.
 set autoindent
