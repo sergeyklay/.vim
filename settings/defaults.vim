@@ -1,9 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Sane defaults for Vim.
 "
-" My personal configuration Vim for that I use on the daily and port
-" around from system to system with me.
-"
-" Copyright (C) 2014, 2021 Serghei Iakovlev <egrep@protonmail.ch>
+" Copyright (C) 2014-2021 Serghei Iakovlev <egrep@protonmail.ch>
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -34,3 +32,5 @@ set number
 
 " Always set autoindenting on.
 set autoindent
+
+" vim:ft=vim:ts=8:sw=2:sts=2:tw=80:fenc=utf-8:et
