@@ -11,6 +11,9 @@ syntax on
 " Be iMproved.
 set nocompatible
 
+" A dedicated place to store histore, commands, files, etc.
+set viminfo+=n~/.vim/viminfo
+
 " Enable automatic indentation.
 filetype indent plugin on
 
