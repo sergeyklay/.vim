@@ -6,7 +6,17 @@ repository I clone — after [my dotfiles](https://github.com/sergeyklay/dotfile
 — when settling in on a new system.
 
 This configuration uses default-style keybindings and known to work with Vim
-7.4 and later.
+7.4 and later.  It's intended to work on a Linux box or on a macOS with a
+Vim compiled with `+ruby` and `+python`, though it should load just fine even
+otherwise, only with less features.
+
+## How to try it out
+
+You'll need to place this project at the proper place:
+
+```shell
+git clone git@github.com:sergeyklay/.vim.git ~/.vim
+```
 
 ## License
 
