@@ -11,9 +11,6 @@ syntax on
 " Be iMproved.
 set nocompatible
 
-" A dedicated place to store histore, commands, files, etc.
-set viminfo+=n~/.vim/viminfo
-
 " Enable automatic indentation.
 filetype indent plugin on
 
@@ -35,5 +32,18 @@ set number
 
 " Always set autoindenting on.
 set autoindent
+
+"""""""""""""""""
+" Working files "
+"""""""""""""""""
+
+" List of directories for the backup file.
+set backupdir=~/.vim/.local/backup
+
+" List of directory names for the swap file.
+set directory=~/.vim/.local/swap
+
+" A dedicated place to store history, commands, files, etc.
+set viminfo+=n~/.vim/viminfo
 
 " vim:ft=vim:ts=8:sw=2:sts=2:tw=80:fenc=utf-8:et
