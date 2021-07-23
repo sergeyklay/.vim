@@ -26,6 +26,7 @@ set laststatus=2
 
 " Display text width column.
 set colorcolumn=78
+highlight ColorColumn ctermbg=darkgray
 
 " Enable the line numbering.
 set number
