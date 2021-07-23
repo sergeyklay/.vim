@@ -18,10 +18,7 @@ if has("autocmd")
                     \   exe "normal! g`\"" |
                     \ endif
 
-        au BufEnter *.c    compiler gcc
-        au BufEnter *.cpp  compiler gcc
-
-        au BufEnter *.re   setf c
+        au BufRead,BufNewFile *.h,*.c set filetype=c
     augroup END
 
     augroup templates
