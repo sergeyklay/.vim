@@ -26,9 +26,10 @@ if has("autocmd")
 
     augroup templates
         " To be run each time the “starting to edit a non-existent file”
-        " event happens. If the file has a .c extension read the contents of
-        " skeleton.c and inserted it at line 0.
+        " event happens. If the file has one of the following extensions read
+        " the contents of skeleton.<ext> and inserted it at line 0.
         au BufNewFile *.c  0r ~/.vim/templates/skeleton.c
+        au BufNewFile *.sh 0r ~/.vim/templates/skeleton.sh
     augroup END
 endif
 
