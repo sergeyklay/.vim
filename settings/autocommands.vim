@@ -8,7 +8,8 @@
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
     augroup custom
-        autocmd!
+        " Delete any old autocommands wit
+        au!
 
         " When editing a file, always jump to the last known cursor position
         " don't do it when the position is invalid or when inside an event
@@ -19,9 +20,13 @@ if has("autocmd")
                     \ endif
 
         au BufRead,BufNewFile *.h,*.c set filetype=c
+        au Filetype css setlocal ts=4 sw=4 et
     augroup END
 
     augroup templates
+        " Delete any old autocommands
+        au!
+
         " To be run each time the “starting to edit a non-existent file”
         " event happens. If the file has one of the following extensions read
         " the contents of skeleton.<ext> and inserted it at line 0.
