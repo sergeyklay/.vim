@@ -18,9 +18,12 @@ You'll need to place this project at the proper place:
 git clone git@github.com:sergeyklay/.vim.git ~/.vim
 ```
 
-Open vim and wait for load `plug`.
-
-Reload .vimrc and `:PlugInstall` to install plugins.
+1. Open vim and wait for load `plug`.
+2. Reload .vimrc and `:PlugInstall` to install plugins.
+3. Install `clangd-completer`:
+   ```
+   cd bundles/YouCompleteMe/ && python install.py --clangd-completer
+   ```
 
 ## License
 
