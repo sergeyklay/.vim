@@ -7,9 +7,12 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-runtime settings/bundles.vim
-runtime settings/defaults.vim
-runtime settings/autocommands.vim
-runtime settings/plugins.vim
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/bundles')
 
 " vim:ft=vim:ts=4:sw=4:sts=4:tw=80:fenc=utf-8:et
