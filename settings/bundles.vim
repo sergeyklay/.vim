@@ -15,4 +15,9 @@ endif
 
 call plug#begin('~/.vim/bundles')
 
+Plug 'ycm-core/YouCompleteMe'
+
+" Initialize plugin system
+call plug#end()
+
 " vim:ft=vim:ts=4:sw=4:sts=4:tw=80:fenc=utf-8:et
