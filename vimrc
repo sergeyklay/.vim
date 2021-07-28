@@ -7,7 +7,6 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-runtime settings/bundles.vim
 runtime settings/defaults.vim
 runtime settings/autocommands.vim
 runtime settings/plugins.vim
