@@ -19,7 +19,7 @@ if has("autocmd")
                     \   exe "normal! g`\"" |
                     \ endif
 
-        au BufRead,BufNewFile *.h,*.c set filetype=c
+        au BufRead,BufNewFile *.h,*.c setlocal ft=c ts=2 sw=2 sts=2 et
         au Filetype css setlocal ts=4 sw=4 et
     augroup END
 
