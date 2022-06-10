@@ -30,9 +30,10 @@ if has("autocmd")
         " To be run each time the “starting to edit a non-existent file”
         " event happens. If the file has one of the following extensions read
         " the contents of skeleton.<ext> and inserted it at line 0.
-        au BufNewFile *.c   0r ~/.vim/templates/skeleton.c
-        au BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
-        au BufNewFile *.sh  0r ~/.vim/templates/skeleton.sh
+        au BufNewFile *.c    0r ~/.vim/templates/skeleton.c
+        au BufNewFile *.cpp  0r ~/.vim/templates/skeleton.cpp
+        au BufNewFile *.sh   0r ~/.vim/templates/skeleton.sh
+        au BufNewFile *.html 0r ~/.vim/templates/skeleton.html
     augroup END
 endif
 
