@@ -18,6 +18,8 @@ You'll need to place this project at the proper place:
 git clone git@github.com:sergeyklay/.vim.git ~/.vim
 ```
 
+Next, install plugins. Open vim and run command `:PlugInstall`.
+
 ## License
 
 This project is open source software licensed under the GNU General Public

@@ -61,7 +61,10 @@ set directory=~/.vim/.local/swap//,.
 " A dedicated place to store history, commands, files, etc.
 set viminfo+=n~/.vim/viminfo
 
-runtime settings/autocommands.vim
-runtime settings/plugins.vim
+runtime startup/bundles.vim
+runtime startup/settings.vim
+runtime startup/plugins.vim
+runtime startup/autocommands.vim
+runtime startup/mappings.vim
 
 " vim:ft=vim:ts=4:sw=4:sts=4:tw=80:fenc=utf-8:et
