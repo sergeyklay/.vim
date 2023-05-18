@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Automatic commands for Vim.
 "
-" Copyright (C) 2014-2021 Serghei Iakovlev <egrep@protonmail.ch>
+" Copyright (C) 2014-2023 Serghei Iakovlev <egrep@protonmail.ch>
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
