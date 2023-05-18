@@ -3,7 +3,7 @@
 " My personal configuration Vim for that I use on the daily and port
 " around from system to system with me.
 "
-" Copyright (C) 2014-2021 Serghei Iakovlev <egrep@protonmail.ch>
+" Copyright (C) 2014-2023 Serghei Iakovlev <egrep@protonmail.ch>
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -44,7 +44,7 @@ set autoindent
 set backup
 
 " List of directories for the backup file.
-set backupdir=~/.vim/.local/backup//
+set backupdir=~/.vim/.local/backup//,.
 
 " Make backup before overwriting the current buffer.
 set writebackup
@@ -56,7 +56,7 @@ set backupcopy=yes
 au BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
 
 " List of directory names for the swap file.
-set directory=~/.vim/.local/swap//
+set directory=~/.vim/.local/swap//,.
 
 " A dedicated place to store history, commands, files, etc.
 set viminfo+=n~/.vim/viminfo
